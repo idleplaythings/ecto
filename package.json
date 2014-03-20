@@ -2,7 +2,7 @@
   "name": "Ecto",
   "version": "0.0.1",
   "description": "JavaScript Browser Emulator",
-  "main": "index.js",
+  "main": "src/ecto.js",
   "scripts": {
     "test": "jasmine-node spec"
   },
