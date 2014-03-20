@@ -4,15 +4,15 @@ var Driver = function Driver() {
 
 };
 
-Driver.prototype.visit = function() {
+Driver.prototype.visit = function(callback) {
     throw Errors.NotImplementedError();
 };
 
-Driver.prototype.click = function(selector) {
+Driver.prototype.click = function(selector, callback) {
     throw Errors.NotImplementedError();
 };
 
-Driver.prototype.fill = function(selector, value) {
+Driver.prototype.fill = function(selector, value, callback) {
     throw Errors.NotImplementedError();
 };
 
