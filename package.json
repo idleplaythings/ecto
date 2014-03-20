@@ -1,5 +1,5 @@
 {
-  "name": "Ecto",
+  "name": "ecto",
   "version": "0.0.1",
   "description": "JavaScript Browser Emulator",
   "main": "src/ecto.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/idleplaythings/Ecto.git"
+    "url": "git://github.com/idleplaythings/ecto.git"
   },
   "author": "Niko Nevala",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/idleplaythings/Ecto/issues"
+    "url": "https://github.com/idleplaythings/ecto/issues"
   },
-  "homepage": "https://github.com/idleplaythings/Ecto",
+  "homepage": "https://github.com/idleplaythings/ecto",
   "dependencies": {
     "q": "1.0.x",
     "spooky": "0.2.4"
