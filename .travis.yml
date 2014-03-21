@@ -1,9 +1,13 @@
 language: node_js
 node_js:
   - "0.11"
-  - "0.10"
-  - "0.8"
-  - "0.6"
+
+before_install:
+  - git clone git://github.com/n1k0/casperjs.git ~/casperjs
+  - cd ~/casperjs
+  - git checkout tags/1.0.2
+  - export PATH=$PATH:`pwd`/bin
+  - cd -
 
 notifications:
   irc:
