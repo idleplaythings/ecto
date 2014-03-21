@@ -4,7 +4,7 @@
   "description": "JavaScript Browser Emulator",
   "main": "src/ecto.js",
   "scripts": {
-    "test": "jasmine-node spec"
+    "test": "echo '### Integration' tests && jasmine-node --matchall tests/integration && echo '### Specs' && jasmine-node spec"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "spooky": "0.2.4"
   },
   "devDependencies": {
+    "connect": "2.14.x",
     "jasmine-node": "1.14.x"
   }
 }

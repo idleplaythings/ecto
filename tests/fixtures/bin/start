@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+if( !process.env.NODE_ENV ) process.env.NODE_ENV = 'test';
+
+var connect = require('../../../node_modules/connect');
+var path = __dirname + '/../site';
+
+connect.createServer(connect.static(path)).listen(8080);

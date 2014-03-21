@@ -1,10 +1,10 @@
 var Errors = require(__dirname + '/../src/errors').Errors;
 
-var Driver = function Driver() {
+var Driver = function Driver(callback) {
 
 };
 
-Driver.prototype.visit = function(callback) {
+Driver.prototype.visit = function(url, callback) {
     throw Errors.NotImplementedError();
 };
 
