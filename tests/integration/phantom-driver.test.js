@@ -26,4 +26,13 @@ describe("PhantomJS browser driver", function() {
             });
         });
     });
+
+    it("visits a non-existing url", function(done) {
+        withDriver(function(driver) {
+            driver.visit('http://localhost:8080/foobar', function() {
+                expect(driver.response.status).toEqual(404);
+                done();
+            });
+        });
+    });
 });
