@@ -4,3 +4,11 @@ node_js:
   - "0.10"
   - "0.8"
   - "0.6"
+
+notifications:
+  irc:
+    channels:
+      - "chat.freenode.net#idleplaythings"
+    on_success: always
+    on_failure: always
+    skip_join: true
